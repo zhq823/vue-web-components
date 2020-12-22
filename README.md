@@ -1,19 +1,29 @@
 # vue-web-components
 
-## Project setup
+### 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 本地调试
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### npm下载使用
 ```
-npm run build
+// vue框架
+npm install vue-web-components --save
+import VueWebComponents from 'vue-web-components';
+Vue.use(VueWebComponents)
+// 非vue其它框架待续...
 ```
+
+### CDN使用
+```
+待续...
+```
+
 
 ### Run your tests
 ```
@@ -27,3 +37,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+(https://github.com/vuejs/vue-docs-zh-cn/blob/master/vue-web-component-wrapper/README.md)
