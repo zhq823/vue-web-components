@@ -1,13 +1,14 @@
 {
   "name": "vue-web-components",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": false,
-  "main": "lib/vue-web-components.min.js",
+  "main": "lib/vue-web-components.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "wc": "rimraf lib && vue-cli-service build --target wc --name vue-web-components --dest lib packages/index.js"
+    "wc": "rimraf lib && vue-cli-service build --target wc --inline-vue --name vue-web-components --dest lib packages/index.js",
+    "lib": "rimraf lib && vue-cli-service build --target lib --inline-vue --name vue-web-components --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
