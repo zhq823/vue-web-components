@@ -15,6 +15,7 @@ npm run serve
 // vue框架
 npm install vue-web-components --save
 import VueWebComponents from 'vue-web-components';
+import 'vue-web-components/lib/vue-web-components.css';
 Vue.use(VueWebComponents)
 // 非vue其它框架待续...
 ```
